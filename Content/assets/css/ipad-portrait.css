@@ -1,0 +1,95 @@
+ul.search-nav li a{
+	margin-bottom: 5px;
+}
+
+
+/*Calendar Start*/
+.fc-event-container .from {
+        margin-top: -10px;
+    font-size: 8px;
+}
+.fc-event-container .desc {
+      font-size: 14px;
+    line-height: 17px;
+}
+
+.fc-event-container .desc span {
+    font-size: 10px;
+}
+.time{
+	position: inherit;
+	display: block;
+	left: inherit;
+   
+    width: 18px;
+}
+.fc-day-number{
+	    font-size: 12px;
+}
+.fc-event-container .ticket-avail {
+    position: inherit;
+    right: 0px;
+    bottom: -2px;
+    left: 15px;
+}
+.fc-event-container .show_check .ticket-avail {
+    bottom: 4px;
+}
+
+/*Calendar End*/
+.drop_new.hotdeals {
+    max-height: 154px;
+}
+.drop_new.hotdeals {
+    max-height: 154px;
+}
+.search_new{
+	bottom: 40%;
+}
+main.main-header_new .container-fluid{
+	    margin: 22% auto auto auto;
+}
+@media(max-width: 767px){
+	.wrapper_new{
+		width: 95%;
+	}
+main.main-header_new .container-fluid{
+	    display: none;
+}
+.search_new{
+	bottom: 50%;
+}
+.search_new.fixed .centerwrapper{
+	width: auto;
+}
+.promotions .col-md-3{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.search_new.fixed{
+	top: auto;
+	width: 90%;
+	background: rgba(13, 13, 14, .9);
+}
+.promotions .col-md-3 table tr th{
+	text-align: center;
+}
+.relative{
+	position: relative;
+}
+.search_new.fixed p, .search_new.fixed a{
+	color: #fff;
+}
+.search_new.fixed .text-center {
+    text-align: center;
+}
+.body_content .row{
+	padding-bottom: 0;
+}
+.top-header-fixed_new a.logo_new img {
+    height: 40px;
+}
+.top-header-fixed_new ul.nav_new {
+    padding-top: 20px;
+}
+}

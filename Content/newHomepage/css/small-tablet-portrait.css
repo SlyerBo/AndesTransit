@@ -1,0 +1,44 @@
+.bottom-header{
+	text-align: center;
+}
+.schedule-ticket{
+	float: none;
+}
+a.logo{
+	float: none;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+#home-tab {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+.top-search {
+    width: 48%;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.ad-section {
+    width: 48%;
+    margin-left: 4%;
+}
+.bx-wrapper{
+	margin-bottom: 0;	
+}
+.banner-home{
+	background: none;
+	height: auto;
+}
+.banner-home .wrapper:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.press ul li p{
+	font-size: 13px;
+}
+
+.press ul li span{
+	font-size: 13px;
+}

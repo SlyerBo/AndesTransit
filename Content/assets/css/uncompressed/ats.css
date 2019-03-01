@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+/* Copyright: AndesTransit */
+/* Author: Spiro Kufojanakis / spiroodesk@gmail.com */
+/* Last 5 revisions:
+ * SK: 140329 [v1.0]
+ *
+ *
+ *
+ *
+ */
+
+/*= Pages: Login/Register
+****************************************************************************/
+
+main#main-login {
+	margin-top: 50px;
+	color: #979797;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15pt;
+}
+
+main#main-login label {
+	font-weight: 400;
+}
+
+.login-register-wrapper {
+	padding: 30px 80px 50px 80px;
+}
+
+.have-account {
+	text-align: center;
+	font-size: 11pt;
+	font-weight: 400;
+	line-height: 30pt;
+}
+
+.form-register .btn {
+	font-size: 14pt;
+}
+
+.login-register .membership-radio {
+	font-size: 11pt;
+	margin-right: 22pt;
+}
+
+.login-register .membership-radio a {
+	text-decoration: underline;
+}
+
+.login-register .membership-price {
+	display: inline-block;
+	margin-left: 7pt;
+}
+
+.login-register {	
+	background: #f4f4f4; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI2MyUiIHN0b3AtY29sb3I9IiNmNGY0ZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #f4f4f4 63%, #e8e8e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(63%,#f4f4f4), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4f4f4 63%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4f4f4 63%,#e8e8e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4f4f4 63%,#e8e8e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4f4f4 63%,#e8e8e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-8 */
+	
+	-webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 3px 6px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 3px 6px 1px rgba(0,0,0,0.1);
+}
+
+.login-with {
+	width: 80pt;
+	height: 36px;
+	display: inline-block;
+	text-align: center;	
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 36px;
+	margin-right: 10px;
+}
+
+.login-with:hover {
+	color: white;
+}
+
+.login-with:last-child {
+	margin-right: 0;
+}
+
+.login-with .icon {
+	float: right;
+	width: 36px;
+	height: 36px;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	box-sizing: content-box;
+	margin-top: -1px;
+}
+
+.login-with.fb {
+	background: #3a589b;
+}
+
+.login-with.fb:hover {
+	background: #263f76;
+}
+
+.login-with.tw {
+	background: #359bed;	
+}
+
+.login-with.tw:hover {
+	background: #0080b7;
+}
+
+.login-with.gp {
+	background: #d64136;	
+}
+
+.login-with.gp:hover {
+	background: #b1362d;
+}
+
+.login-with.fb .icon {	
+	background:url(../img/sprites.png) no-repeat 0 -224px;
+	border-top: 1px solid #3a589b;
+}
+
+.login-with.tw .icon {
+	background:url(../img/sprites.png) no-repeat 0 -260px;
+	border-top: 1px solid #359bed;
+}
+
+.login-with.gp .icon {
+	background:url(../img/sprites.png) no-repeat 0 -296px;
+	border-top: 1px solid #d64136;
+}
+
+main#main-login a.forgot-pass {
+	color: #979797;
+}
+
+.return-to-login a {
+	line-height: 30pt;
+	font-size: 80%;
+	color: #979797;
+}
+

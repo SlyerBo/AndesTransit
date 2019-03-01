@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+/* Copyright: AndesTransit */
+/* Author: Spiro Kufojanakis / spiroodesk@gmail.com */
+/* Last 5 revisions:
+ * SK: 140329 [v1.0]
+ *
+ *
+ *
+ *
+ */
+
+
+/*= Modals
+****************************************************************************/
+
+/* modal info - pure white with info message and close button */
+
+.modal-info {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 15%;
+	color: black;
+}
+
+.modal-info .close {
+  float: right;
+  font-size: 26pt;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=30);
+  opacity: .3;
+}
+.modal-info .close:hover,
+.modal-info .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.modal-info .modal-dialog {
+	width: 400px;
+}
+
+.modal-info .modal-content {
+	-webkit-border-radius: 16pt;
+	-moz-border-radius: 16pt;
+	border-radius: 16pt;
+}
+
+.modal-info .modal-body {
+	padding: 0;
+}
+
+.modal-info .modal-header, .modal-info .modal-footer {
+	border: none;
+}
+
+.modal-info .modal-header {
+	text-align: right;
+}
+
+.modal-info .modal-header .close {
+	float: none;
+}
+
+.modal-info .modal-header .modal-title {
+	text-align: center;
+	font-size: 16pt;
+	line-height: 19pt;
+}
+
+.modal-info .modal-footer {
+	font-size: 16pt;
+	text-align: center;
+}
+
+
+
+
+
+/* modal-common - blue header, body and footer */
+
+.modal-common {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 15%;
+	color: black;
+}
+
+.modal-common.ptsmall {
+	padding-top: 2%;
+}
+
+.modal-common .close {
+	float: right;
+	font-size: 26pt;
+	font-weight: bold;
+	line-height: 1;
+	color: white;
+	text-shadow: 0 1px 0 #fff;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.modal-common .close:hover,
+.modal-common .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.modal-common .noContent {
+	padding:0;
+}
+
+.modal-common .modal-dialog {
+	width: 400px;
+}
+
+.modal-common .modal-dialog.big, .modal-common .modal-dialog.big .modal-content {
+	width: 600px;
+}
+
+.modal-common .modal-header, .modal-common .modal-footer {	
+	border: none;
+}
+
+.modal-common .modal-header {
+	text-align: left;
+	background: #009fe3;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 10pt 10pt 0px 0px;
+	border-radius: 10pt 10pt 0px 0px;
+}
+
+.modal-common .modal-header .modal-title {
+	color: white;
+	font-size: 15pt;
+	font-weight: 700;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.modal-common .modal-header .modal-title .subtitle {
+	font-weight: 400;
+}
+
+.modal-common .modal-footer {
+	margin: 0;
+}
+
+.modal-common .modal-footer.borderTop {
+	border-top: 1px solid #d8d8d8;
+}
+
+.modal-common .modal-content {
+	-webkit-border-radius: 10pt;
+	-moz-border-radius: 10pt;
+	border-radius: 10pt;
+	border: 1px solid white;
+	font-size: 15pt;	
+	width: 460px;
+}
+
+.modal-common .modal-body.nopad {
+	padding: 0;
+}
+
+.modal-common .modal-body.smaller {
+	font-size: 12pt;
+}
+
+.modal-common .formInModal {
+	font-size: 10pt;
+}
+
+.modal-common .formInModal input[type=text] {
+	width: 70px;
+	height: 28px;
+}
+
+.modal-common .formInModal select {
+	width: 50px;
+	padding: 0;
+	padding-left: 3px;
+	height: 28px;
+}
+
+.modal-common .formInModal .other-info {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.modal-common .formInModal .other-info textarea {
+	width: 100%;
+}
+
+.modal-common .captcha-container {
+	float: none;
+	clear: both;
+}
+
+.modal-common .company-image {
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	border: 5px solid #c9c9c9;
+}
+
+.modal-common .company-image img {
+	max-width: 408px;
+}
+
+
+.modal-common .modal-table > tbody > tr:nth-child(odd) > td,
+.modal-common .modal-table > tbody > tr:nth-child(odd) > th {
+	background-color: #f1f1f1;
+}
+
+.modal-common .modal-table > tbody > tr > td {
+	padding: 7px 20px 7px 20px;
+	border: none;	
+}
+
+.modal-common .modal-table {
+	font-size: 11pt;
+	line-height: 16pt;
+	color: #414141;
+	margin-bottom: 0;
+}
+
+.modal-common .modal-table h3 {
+
+	padding: 0;
+	margin: 0;
+	color: #414141;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.pay-opt {
+	float: left;
+	text-align: center;
+	margin-right: 70px;
+	font-size: 12pt;
+}
+
+.pay-opt:last-child {
+	margin-right: 0;
+	float: right;
+}
+
+.pay-opt i {
+	margin-bottom: 5px;
+}
+
+
+.modal-common .modal-table.acc > tbody > tr:nth-child(even) > td,
+.modal-common .modal-table.acc > tbody > tr:nth-child(even) > th {
+	/*background-color: #f1f1f1;*/
+}
+
+.modal-common .modal-table.acc > tbody > tr > th {
+	background: #c6d175;
+}
+
+.modal-common .modal-table.acc > tbody > tr > td,
+.modal-common .modal-table.acc > tbody > tr > th {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.modal-common .modal-table.acc .acc-pic {
+	border:2px solid #c9c9c9;
+}
+
+.modal-common .modal-table.acc a {	
+	
+}
+

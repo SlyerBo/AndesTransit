@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* Copyright: AndesTransit */
+/* Author: Spiro Kufojanakis / spiroodesk@gmail.com */
+/* Last 5 revisions:
+ * SK: 140329 [v0.9]
+ * SK: 140406 [v1.0]
+ *
+ *
+ *
+ */
+
+#main-search .col-md-10{width:750px}#main-search .col-md-2{width:200px;padding:0 0 0 5px}.cdetails{width:41%;margin-right:.5555555%}main{min-width:768px!important}.login-andes-container{max-width:548px!important;min-width:548px!important;margin:0 auto}@media max-width 991px{header{min-height:107px}header .taglines{width:273px}header .divider{margin-top:0}header .tagline2{width:270px;font-size:14pt}header .tagline3{width:270px;font-size:10pt;margin-top:8pt;letter-spacing:normal}header .membership{font-size:10pt}.footer-nav .f-nav-col{margin-left:12pt}.footer-nav .f-nav-col:first-child{margin-left:0}.carousel-andes{margin-bottom:0;padding-bottom:0}.custom-box .title{letter-spacing:normal}.carousel-andes .carousel-inner > .item img{height:383px;width:345px}#main-search .col-md-2{width:750px;padding-left:15px}.search-ads img{margin-right:20px}.adsright{margin-right:55px}.adsright:last-child{margin-right:15px;float:right}#main-review .listing .form-review-search-inner input{max-width:600px;width:387px;margin-bottom:15px}header .pull-right-resp,#main-review .listing .form-review-search-inner button{float:right!important}}@media max-width 768px{.modal-dialog{margin:auto}.col-centered{float:left;margin:inherit}#main-search .col-md-2{width:750px;padding-left:15px}}

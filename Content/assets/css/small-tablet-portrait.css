@@ -1,0 +1,127 @@
+ul.search-form-top li {
+    width: auto;
+    margin-right: 0;
+    float: none;
+}
+ul.search-form-top li input[type="text"] {
+    width: 100%;
+}
+ul.nav_new{
+	display: none;
+}
+ul.nav_new.iphonemenu{
+	display: block;
+}
+.menuicon{
+	cursor: pointer;
+}
+.top-header-fixed_new ul.nav_new.iphonedrop{
+    position: absolute;
+    top: 49px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    right: 4%;
+        padding: 5px 8px;
+}
+.top-header-fixed_new ul.nav_new.iphonedrop li{
+	float: none;
+	padding: 5px 0;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: center;
+	font-weight: bold;
+}
+.top-header-fixed_new ul.nav_new.iphonedrop li:last-child{
+	border-bottom: none;
+}
+.top-header-fixed_new ul.nav_new.iphonedrop li a{
+	padding: 0;
+	font-size: 12px;
+}
+.promotions .col-xs-12{
+	width: auto;
+	float: none;
+}
+.body_content .row, .promotions .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.search_new input[type="text"] {
+    width: 39%;
+    margin-right: 1%;
+}
+.search_new input[type="submit"] {
+    width: 20%;
+}
+ul.nav_new li {
+    padding: 0 5px;
+}
+ul.nav_new.iphonemenu .language_new{
+	padding-top: 5px;
+}
+.top-header-fixed_new a.logo_new img {
+    height: 32px;
+}
+.top-header-fixed_new.fixed a.logo_new img {
+    height: 32px;
+}
+ul.nav_new li .drop_new {
+    position: inherit;
+    left: 0;
+    width: auto;
+    border-top: 1px solid #D2D2D3;
+    font-size: 12px;
+    background: #fff;
+    box-shadow: none;
+    top: 0;
+    z-index: inherit;
+    display: block;
+    border-radius: 2px;
+    margin-top: 5px;
+    max-height: 110px;
+    overflow-y: auto;
+}
+.refine_result .filter-trigger {
+    background: url(../images/detail.png) 0 0 no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block !important;
+    padding: 0;
+    margin: 2px 3px 0 8px;
+}
+.refine_result .filters {
+    display: none;
+}
+.refine_result.filters-expanded .filters {
+    display: block;
+}
+.refine_result.filters-expanded .filter-trigger {
+    background: url('../images/detail_opp.png') 0 0 no-repeat;
+}
+
+.fc-event-container .desc {
+    font-size: 4.2vw !important;
+}
+
+.fc-event-container .desc span {
+    font-size: 4.5vw !important;
+}
+
+
+.not-avaiable.message {
+    font-size: 2.5vw;
+    word-wrap: break-word;
+}
+
+
+.fc-event-container .from {
+    margin-top: -6px !important;
+}
+.time {
+    top: -5vw;
+    left: 0vw;
+}
+.ticket-avail {
+    left: 2vw !important;
+}

@@ -1,0 +1,22 @@
+.testimonial-wrapper {
+    float: none;
+    width: auto;
+    margin-bottom: 15px;
+}
+.newsletter {
+    float: none;
+    width: auto;
+}
+.sub-footer {
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+.footer-top .wrapper .sub-footer:nth-child(2n):after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.press ul li p {
+    font-size: 14px;
+}

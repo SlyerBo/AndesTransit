@@ -1,0 +1,26 @@
+.sub-footer {
+    float: none;
+    width: auto;
+    text-align: center;
+}
+.top-search {
+    width: auto;
+    margin-left:0;
+    float: none;
+}
+.ad-section {
+    width: 60%;
+    margin-left:0;
+    float: none;
+    margin: 10px auto 0 auto;
+}
+.press {
+    float: none;
+    width: auto;
+    border:none;
+}
+.recommended {
+    float: none;
+    width: auto;
+    border-top:1px solid #d2d2d2;
+}

@@ -1,0 +1,673 @@
+h1, h2, h3, h4, h5, h6, p, img, ul, ol, li, select, option, input, textarea, header, footer, nav, aside, section, article, figure, figcaption, body, html, table, tr, td, th, tbody, hr
+{
+	margin:0;
+	padding:0;
+	border:none;
+	font-weight:normal;
+}
+
+a, a:visited, a:link, a:hover, a:active
+{
+	color:inherit;
+	text-decoration:none;
+	padding:0;
+}
+
+img
+{
+	max-width:100%;
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/opensans-lightitalic-webfont.eot');
+    src: url('../fonts/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html
+{
+	-webkit-text-size-adjust:none;
+}
+
+body
+{
+	color: #282828;
+    font-family: 'open_sansregular';
+    background: #f4f4f4;
+    font-size: 14px;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+input[type="text"], select, input[type="date"] {
+	background: #fff;
+	border-radius: 5px;
+	padding: 2px 5px;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.4);
+	height: 26px;
+}
+.search-bar{
+	  background: #1d1d1b;
+	  padding: 10px 0;
+	  border-bottom: 5px solid #009fe3;
+}
+ul.search-form-top{
+	list-style: none;
+}
+ul.search-form-top li{
+	width: 33%;
+	float: left;
+}
+ul.search-form-top li.swap{
+	width: 17%;
+    padding-left: 3px;
+	margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ul.search-form-top li.swap .glyphicon{
+    line-height: 20px;
+}
+ul.search-form-top li:last-child{
+	width: 5%;
+	margin-right: 0;
+	text-align: right;
+    margin-top: 29px;
+    margin-left: 8%;
+}
+ul.search-form-top li label{
+	color: #fff;
+	margin-right: 2%;
+	margin-top: 8px;
+}
+ul.search-form-top li:after, ul.search-form-top:after, .sort-bar .wrapper:after, h2.start-route.change-start-finish:after, .wrapper:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.red-button{
+  padding: 5px 14px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  color: #fff;
+  background: #b11f1d;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 19px;
+}
+ul.top-left{
+	float: right;
+	list-style: none;
+}
+.sort-bar ul.top-left{
+	display: inherit;
+	margin-top: 8px;
+}
+.sort-bar ul.top-left li{
+	display: block;
+}
+ul.top-left li label{
+	font-size: 13px;
+	line-height: normal;
+}
+ul.top-left li select{
+	display: inline-block;
+}
+ul.top-right{
+	float: right;
+}
+#webmenu_msdd{
+	display: inline-block;
+	width: auto !important; 
+}
+.sort-bar{
+	background: #bebebe;
+	padding: 6px 0;
+}
+.sort-bar label{
+	display: inline-block;
+	padding-right: 5px;
+}
+.sort-bar ul{
+	display: inline-block;
+}
+.sort-bar ul li{
+	display: inline-block;
+}
+ul.search-nav{
+	list-style: none;
+}
+ul.search-nav li a{
+	padding: 5px 18px;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	display: block;
+}
+ul.search-nav li a.active{
+	background: #009fe3;
+}
+.best-bets thead{
+	background: #ececb4;
+	text-align: center;
+}
+.best-bets tr td:first-child{
+	padding-left: 20px;
+}
+.best-bets tr td{
+	padding: 12px 8px;
+	text-align: center;
+}
+.best-bets tr td:last-child{
+	padding-right: 20px;
+}
+.responsive-tabs.accordion>div.content>section{
+	padding: 0;
+}
+
+.best-bets a{
+	color: #009fe3;
+}
+.best-bets span.details{
+	color: #000;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 4px 12px;
+	background: #009fe3;
+	border-radius: 5px;
+	display: block;
+}
+.best-bets span.details:hover{
+	text-decoration: underline;
+}
+.refine-result{
+	background: #fff;
+	border-bottom: 1px solid #bebebe;
+	padding: 8px 0;
+}
+.refine-result label, .refine-result ul{
+	display: inline-block;
+	vertical-align: middle;
+}
+.refine-result ul{
+	list-style: none;
+	width: 80%;
+}
+.refine-result ul li{
+	display: inline-block;
+	padding: 0 18px;
+	width: 33%;
+}
+.refine-result ul li p{
+	text-align: center;
+  font-family: 'open_sanssemibold';
+}
+h2.start-route{
+	padding: 10px 0;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.blue-bold{
+	font-size:16px;
+	font-weight: bold;
+	color: #009fe3;
+}
+.best-bets tr td.best-bets-detail{
+	padding: 5px;
+	text-align: left;
+	background: #fff;
+	border-top: 1px solid #ccd3d7;
+	border-bottom: 1px solid #ccd3d7;
+}
+.travel-trip{
+	background: #f4f4f4;
+	border:1px solid #ccd3d7;
+	padding: 5px 10px;
+	margin: 6px 15px;
+}
+.best-bets tr td.best-bets-detail td{
+	text-align: left;
+	padding: 0px 5px 0px 0px;
+}
+
+.best-bets tr td.best-bets-detail td:first-child {
+    width: 20%;
+}
+
+.travel-trip:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.travel-trip-left{
+	width: 70%;
+	float: left;
+}
+.travel-trip-left table{
+	font-size: 14px;
+}
+.travel-trip-right{
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+.payment-option{
+	padding: 8px 0;
+}
+.payment-option a{
+	padding-top: 65px;
+	width: 60px;
+	display: inline-block;
+	padding-right: 0;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.payment-option a.counter{
+	background: url('../images/payment-icn.png') 0 0 no-repeat;
+}
+.payment-option a.online{
+	background: url('../images/payment-icn.png') -70px 0 no-repeat;
+}
+.payment-option a.delivery{
+	background: url('../images/payment-icn.png') -140px 0 no-repeat;
+}
+.payment-option a.invoice{
+	background: url('../images/payment-icn.png') -210px 0 no-repeat;
+}
+.payment-option a.prepaid{
+	background: url('../images/payment-icn.png') -280px 0 no-repeat;
+}
+.payment-option a:hover{
+	text-decoration: underline;
+}
+.transport-img{
+	border:1px solid #ccd3d7;
+}
+.travel-trip-right h2{
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.transport-img img{
+	width: 100%;
+	vertical-align: middle;
+}
+a.look-inside{
+  background: url('../images/look-inside-icn.png') 0 center no-repeat;
+  padding-left: 15px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+a.book-hotel{
+	float: right;
+	padding-left: 42px;
+	color: #b11f1d;
+	font-weight: bold;
+	font-size: 16px;
+	background: url('../images/book-hotel.png') 0 0 no-repeat; 
+	line-height: 32px;
+	margin-top: -16px;
+}
+h2.start-route.change-start-finish a.book-hotel{
+	margin-top: 0;
+}
+a.print-itinerary{
+	display: inline-block;
+	padding-left: 42px;
+	color: #b11f1d;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	background: url('../images/print.png') 0 0 no-repeat; 
+	line-height: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a.total-trip{
+	background: #b11f1d;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	padding:5px 15px;
+	color: #fff;
+	text-shadow:0 1px 1px rgba(0,0,0,0.5);
+	font-weight: bold;
+	font-size: 17px;
+}
+tr.active-row{
+	background: #009fe3;
+	color: #fff;
+}
+tr.active-row span.details{
+	background: #fff;
+	white-space: nowrap;
+}
+.best-bets > tbody > tr > td{
+	border-bottom: 1px solid #ccd3d7;
+    font-size: 14px;
+}
+.best-bets > tbody > tr > td img{
+	vertical-align: middle;
+}
+.cursor{
+	cursor: pointer;
+}
+.cursor:hover{
+	text-decoration: underline;
+}
+/*Bootstrap Moadal Start*/
+.modal-header{
+	background: #009fe3;
+	color: #fff;
+	font-weight: bold;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.modal-header .close {
+  margin-top: 0;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  opacity: 1;
+}
+.btn-primary{
+	border:none;
+	background: #009fe3;
+}
+h1.profile-heading{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 10px;
+}
+.company-image{
+	  text-align: center;
+  display: block;
+  border: 5px solid #c9c9c9;
+}
+.company-sub-heading{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	line-height: 22px;
+}
+.company-address{
+	  padding: 0px 0px 10px 0px;
+}
+.company-rating{
+	float: right;
+}
+.formInModal input[type=text]  {
+  width: 120px;
+  height: 34px;
+  box-shadow: none;
+}
+input[type=text].form-control{
+
+  height: 34px;
+  box-shadow: none;
+}
+.formInModal .form-group{
+	padding-bottom: 15px;
+}
+.modal-content label{
+	font-weight: normal;
+}
+.suggest-title{
+  padding-bottom: 15px;
+  font-weight: normal;
+  font-size: 16px;
+}
+.form-group.other-info{
+	display: block;
+}
+#confirmSection{
+	padding-top: 15px;
+}
+.bs-example-modal-lg .modal-dialog{
+	width: 860px;
+}
+
+/*Bootstrap Moadal End*/
+.best-bets.terminal-office{
+	  font-size: 16px;
+}
+.best-bets tr td.best-bets-detail .best-bets.terminal-office td {
+	    padding: 8px 5px 8px 5px;
+}
+.best-bets.terminal-office tr:last-child td{
+	border-bottom: transparent;
+}
+
+.cbp-fwslider ul li > a img{
+	max-width: 100%;
+}
+.cbp-fwslider{
+	margin: 0;
+	padding: 0;
+}
+.cbp-fwslider nav{
+	display: none;
+}
+.best-bets tr.active-row td a{
+	color: #fff;
+	text-decoration: underline;
+}
+h2.start-route.change-start-finish{
+	padding: 0px 10px;
+  background: #9E9E9E;
+  color: #fff;
+  margin: 0;
+}
+h2.start-route.change-start-finish .blue-bold{
+	  color: #000;
+	    line-height: 32px;
+}
+.cbp-fwdots span{
+	width: 10px;
+  height: 10px;
+}
+h2.start-route.change-start-finish a.book-hotel{
+	color: #000;
+}
+span[data-toggle="modal"], a.book-hotel:hover{
+	text-decoration: underline;
+}
+.best-bets a.ticket-online {
+  cursor: pointer;
+  font-size: 14px;
+  background: url('../images/ticket-online.png') 0 0 no-repeat;
+  color: #b11f1d;
+  text-decoration: underline;
+  padding: 5px 0px 5px 32px;
+  white-space: nowrap;
+}
+.best-bets a.ticket-online.not-avail{
+	background: #9E9E9E;
+	  cursor: not-allowed;
+	  pointer-events: none;
+
+	text-shadow:none;
+}
+.best-bets a.ticket-online:hover{
+	text-decoration: underline;
+}
+.best-bets a.ticket-online.not-avail:hover{
+	text-decoration: none;
+}
+h2.start-route.change-finish{
+	  background-color: #9E9E9E;
+  padding: 5px 10px;
+   color: #fff;
+  margin: 0;
+}
+.width-gap {
+    width: 25px;
+    display: block;
+    height: 5px;
+}
+.modal-title{
+	text-align: left;
+}
+#slider .modal-body{
+	padding: 0;
+}
+#slider .modal-dialog {
+  width: 1100px;
+}
+
+.look-slider{
+	position: relative;
+}
+.look-slider .glyphicon-remove{
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+  z-index: 99999;
+}
+.ps-current{
+	height: 600px !important;
+}
+.irs-bar, .irs-line{
+	height: 10px;
+}
+.irs-line-left, .irs-line-mid, .irs-line-right{
+	height: 10px;
+}
+.irs-slider{
+	width: 15px;
+	  height: 20px;
+	    top: 20px;
+}
+.irs-from, .irs-to, .irs-single{
+	  background: #0094FF;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+  background-position: 0 -149px;
+}
+.irs-from:after, .irs-to:after, .irs-single:after{
+	  border-top-color: #0094FF;
+}
+.main-content-left{
+	width: 74%;
+	float: left;
+}
+.best-bets tr td:last-child img{
+    	display: block;
+    max-width: 23px;
+    }
+    .main-content-right{
+    	float: right;
+    	width: 24%;
+    	margin-top: 15px;
+    }
+@media(max-width:1100px){
+	ul.search-form-top li label{
+		display: block;
+	}
+	.sort-bar ul.top-left{
+		    float: none;
+		    margin-top: 15px;
+	}
+	ul.search-nav{
+		display: block;
+	}
+	ul.search-form-top li:last-child{
+		    margin-top: 4.4%;
+	}
+	.refine-result ul {
+	    width: auto;
+	    display: block;
+	}
+	.refine-result label{
+		margin-bottom: 15px;
+		display: block;
+	}
+	.best-bets tr td {
+    	padding: 12px 5px;
+    }
+    
+    .refine-result ul li{
+    	width: 49%;
+    }
+    .refine-result ul li:first-child, .refine-result ul li:last-child{
+    	padding-left: 0;
+    }
+}
+
+.modal-common .modal-header {
+    text-align: left;
+    background: #009fe3;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 10pt 10pt 0 0;
+    border-radius: 10pt 10pt 0 0;
+}
